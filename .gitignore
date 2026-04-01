@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# PDF
+*.pdf
+
+# Model checkpoints & training outputs
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Data files (large binary)
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.mat
+*.csv
+*.dat
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# Logs
+*.log
+wandb/
+runs/
+lightning_logs/
